@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     texlive-fonts-extra \
     texlive-latex-extra \
     texlive-plain-generic \
+    fonts-roboto \
+    fonts-roboto-slab \
     && rm -rf /var/lib/apt/lists/*
 
 # Set up working directory
